@@ -118,7 +118,7 @@
  */
 - (BOOL) isSupportedURLScheme:(NSString *) scheme
 {
-    if ([scheme isEqualToString:@"http"] || [scheme isEqualToString:@"https"] || [scheme isEqualToString:@"ionic"]) {
+    if ([scheme isEqualToString:@"http"] || [scheme isEqualToString:@"https"] || [scheme isEqualToString:@"ionic"] || [scheme isEqualToString:@"httpsionic"]) {
         return YES;
     }
     
